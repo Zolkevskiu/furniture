@@ -1,0 +1,290 @@
+@media (max-width: 1700px) {
+    .says-col {
+        width: 500px;
+        height: 320px;
+    }
+    .says-row {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 1550px) {
+    .says-col {
+        width: 450px;
+        height: 270px;
+    }
+    .says-p {
+        margin-top: 70px;
+        font-size: 14px;
+    }
+    .says-img {
+        height: 90px;
+    }
+    .says-col .says-name {
+        font-size: 18px;
+        margin-top: 40px;
+    }
+    .title-text {
+        font-size: 68px;
+        line-height: 70px;
+    }
+    .title-paragraph {
+        font-size: 18px;
+    }
+    .section-1 .furniture-paragraph {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 40px;
+    }
+    .section-1 .furniture-tittle {
+        font-size: 68px;
+        line-height: 65px;
+    }
+}
+@media (max-width: 1400px) {
+    .title-text {
+        margin-top: 100px;
+    }
+    .title-button {
+        margin-top: 30px;
+    }
+    .navigation-star-slide {
+        width: 300px;
+        height: 430px;
+    }
+    .navigation-star-wrap {
+        justify-content: center;
+    }
+    .says-col {
+        width: 400px;
+        height: 230px;
+    }
+    .says-col .says-name {
+        margin-top: 20px;
+    }
+    .says-p {
+        margin-top: 60px;
+    }
+    .section-7 {
+        height: 570px;
+    }
+    .products_wrap {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 575px);
+    }
+    .products-block,.products-block:nth-child(3), :nth-child(6) {
+        justify-self: center;
+    }
+    .products-block {
+        &:nth-child(4),&:nth-child(3) {
+            align-self: center;
+        }
+    }
+}
+@media (max-width: 1300px) {
+    .blog-wrap {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 450px);
+        .blog-block {
+            justify-self: center;
+            align-self: center;
+        }
+    }
+    .arrowBlogLeft-svg {
+        display: none;
+    }
+    .section-1 {
+        background-size: 120%;
+    }
+}
+@media (max-width: 1300px) {
+    .section-4 {
+        margin-top: 80px;
+    }
+}
+@media (max-width: 1250px) {
+    .section-7 {
+        height: 800px;
+        top: 70px;
+    }
+    .says-row {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .says-col {
+        margin-top: 70px;
+    }
+    .says-col:nth-child(1),:nth-child(2) {
+        justify-self: center;
+    }
+    .says-col:nth-child(3) {
+        justify-self: center;
+        grid-column-end: span 3;
+    }
+}
+@media (max-width: 1200px) {
+    .header {
+        height: 1000px;
+        background-size: 1920px 1080px;
+        background-position: left;
+    }
+}
+@media (max-width: 1130px) {
+    .section-1 {
+        width: 98%;
+        background-size: 1100px 500px;
+        background-position: center;
+    }
+    .navigation-star-wrap {
+        margin-top: 100px;
+    }
+    .wrap__col__paragraph {
+        font-size: 16px;
+    }
+    .col__title {
+        font-size: 20px;
+    }
+    .ul_item {
+        font-size: 16px;
+    }
+    .navigation-star-slide {
+        &:nth-child(3) {
+            display: none;
+        }
+    }
+    .section-1 .furniture-tittle {
+        font-size: 54px;
+        line-height: 50px;
+    }
+    .section-1 .furniture-paragraph {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+    .title-button {
+        width: 170px;
+        height: 50px;
+        font-size: 16px;
+    }
+} 
+@media (max-width: 1024px) {
+    .section-3 {
+        background-size: 1400px 100%;
+        background-position: center center;
+    }
+}
+@media (max-width: 900px) {
+    .header {
+        background-position: center;
+    }
+    .nav-pagination {
+        li, img {
+            display: none;
+        }
+    }
+    .navigation-star-slide {
+        &:nth-child(2) {
+            display: none;
+        }
+    }
+    .says-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .says-col:nth-child(3) {
+        grid-column-end: auto;
+    }
+    .section-7 {
+        height: 1150px;
+        top: 70px;
+    }
+    .footer-content__wrap {
+        flex-direction: column;
+    }
+    .products_wrap {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 575px);
+    }
+    .section-1 {
+        background-size: 1000px 500px;
+        .furniture-text-block {
+            margin-left: 110px;
+        }
+    }
+    .footer {
+        padding-top: 30px;
+    }
+    .col__sub-col:nth-child(1) {
+        left: 0px;
+    }
+    .content__wrap__col:nth-child(2) {
+        justify-content: space-between;
+    }
+}
+@media (max-width: 800px) {
+    .delivery-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .email-block .block-content {
+        margin-left: 0;
+        margin-top: -180px;
+    }
+    .email-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 700px) {
+    .navigation-star-tabs-wrap {
+        margin-top: 300px;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+        width: 500px;
+    } 
+    .navigation-star-part::before {
+        width: 90px;
+        height: 90px;
+    }
+    .navigation-star-part {
+        margin-left: 0;
+        width: 60px;
+        font-size: 13px;
+        height: 60px;  
+        margin-top: 40px;
+        &:nth-child(-1n+2):after {
+            width: 60px;
+            left: 0;
+            margin-left: 83px;
+        }
+    }
+        
+}
+@media (max-width: 630px) {
+    .blog-block {
+        width: 90%;
+    }
+    .navigation-star-slide {
+        margin-top: -40px;
+        &:nth-child(1) {
+            display: none;
+        }
+    }
+    .section-4-paragraph, .section-2 .slideBlock-paragraph, .blog-p, .featured-p, .email-block .content-sub_title {
+        font-size: 16px;
+    }
+    .section-h, .slideBlock-text, .email-block .content-title {
+        font-size: 24px;
+    }
+    .section-1 .furniture-text-block {
+        margin-left: -50px;
+    }
+    .section-1 {
+        background-position: -650px;
+        background-size: 250%;
+    }
+} 

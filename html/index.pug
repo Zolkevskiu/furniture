@@ -1,0 +1,511 @@
+html
+    head
+        link(rel="stylesheet", href="../css/style.css")
+        link(rel="stylesheet", href="../css/swiper.css")
+        link(rel="shortcut icon", href="../img/logoSec.svg", type="image/x-icon")
+        link(rel="stylesheet", href="https://unpkg.com/aos@2.3.1/dist/aos.css")
+        meta(name="viewport" content="width=device-width")
+        title furniture-shop
+    body
+        .wrapper
+            header(class="header" id="home")
+                nav.nav              
+                    ul.nav-pagination
+                        img(src="../img/logoSec.svg")
+                        li.nav-pagination-li                      
+                            a(class="a-pagination" href="#home") Home
+                        li.nav-pagination-li
+                            a(class="a-pagination" href="#shop") Shop
+                        li.nav-pagination-li 
+                            a(class="a-pagination" href="#blog") Blog
+                        li.nav-pagination-li 
+                            a(class="a-pagination" href="#aboutUs") About Us
+                        li.nav-pagination-li 
+                            a(class="a-pagination" href="#product") Product
+                        li.nav-pagination-li 
+                            a(class="a-pagination" href="#pages") Pages
+                        li.nav-pagination-li 
+                            a(class="a-pagination" href="#contact") Contact Us
+                    figure
+                        img(src="../img/search.svg", alt="search")
+                        img(src="../img/shopping-cart.svg", alt="shopCArt")
+                .title-block 
+                    h1.title-text
+                        | Simple Furniture<br>
+                        | with
+                        a(href="#" class="href") high-end<br>
+                        | quality
+                    p.title-paragraph 
+                        | Lorem Ipsum is simply dummy text of the printing<br>
+                        | and typesetting industry.
+                    button.title-button Shop Now
+            section(class="section-1" id="aboutUs")
+                .furniture-text-block 
+                    h2.furniture-about ABOUT US 
+                    h1.furniture-tittle 
+                        | FURNITURE<br>
+                        | OF ART.
+                    p.furniture-paragraph 
+                        | Lorem Ipsum is simply dummy text of the printing <br>
+                        | and Lorem Ipsum is simply dummy text of the printing <br>
+                        | and typesetting industry.d typesetting industry.<br>
+                    button.title-button Shop Now
+            section(class="section-2" id="shop")
+                h1.slideBlock-text WHAT PRODUCT WE SELL 
+                p.slideBlock-paragraph Find our best products faster, better and qualitier  product’s choices from us.
+                div(class="swiper mySwiper") 
+                    div(class="swiper-wrapper slide-wrap")  
+                        div(class="slide-card swiper-slide") 
+                            div(class="card-head")
+                                img(src="../img/cheir.png", alt="cher" class="furniture-png")
+                                | Couch Cartoon 
+                            .card-text 
+                                img(src="../img/fore-star.png", alt="star")
+                                <b>$ 159</b>
+                                <p class="card-paragraph">
+                                | Lorem lipsum is simple and<br>
+                                | durny text.
+                                </p>
+                            button(class="card-button", onmouseover="buttonOver1()" onmouseleave="buttonLeave1()") Add to Cart                           
+                        div(class="slide-card swiper-slide") 
+                            div(class="card-head")
+                                img(src="../img/cheir2.png", alt="cher" class="furniture-png")
+                                | Cuero Chair
+                            .card-text 
+                                img(src="../img/thre-star.png", alt="star")
+                                <b>$ 199</b>
+                                <p class="card-paragraph">
+                                | Lorem lipsum is simple and<br>
+                                | durny text.
+                                </p>
+                            button(class="card-button", onmouseover="buttonOver2()" onmouseleave="buttonLeave2()") Add to Cart 
+                        div(class="slide-card swiper-slide") 
+                            div(class="card-head") 
+                                img(src="../img/sofa.png", alt="cher" class="furniture-png")
+                                | Bedroom Bed
+                            .card-text 
+                                img(src="../img/five-star.png", alt="star")
+                                <b>$ 359</b>
+                                <p class="card-paragraph">
+                                | Lorem lipsum is simple and<br>
+                                | durny text.
+                                </p>
+                            button(class="card-button",  onmouseover="buttonOver3()" onmouseleave="buttonLeave3()") Add to Cart 
+                        div(class="slide-card swiper-slide") 
+                            div(class="card-head")
+                                img(src="../img/table.png", alt="cher" class="furniture-png")
+                                | Outdoor Table
+                            .card-text 
+                                img(src="../img/fore-star.png", alt="star")
+                                <b>$ 99</b>
+                                <p class="card-paragraph">
+                                | Lorem lipsum is simple and<br>
+                                | durny text.
+                                </p>
+                            button(class="card-button", onmouseover="buttonOver4()" onmouseleave="buttonLeave4()") Add to Cart 
+                        div(class="slide-card swiper-slide") 
+                            div(class="card-head")
+                                img(src="../img/furniture.png", alt="cher" class="furniture-png")
+                                | Wooden Drawer
+                            .card-text 
+                                img(src="../img/thre-star.png", alt="star")
+                                <b>$ 299</b>
+                                <p class="card-paragraph">
+                                | Lorem lipsum is simple and<br>
+                                | durny text.
+                                </p>
+                            button(class="card-button", onmouseover="buttonOver5()" onmouseleave="buttonLeave5()") Add to Cart 
+                        div(class="slide-card swiper-slide") 
+                            div(class="card-head")
+                                img(src="../img/cheir.png", alt="cher" class="furniture-png")
+                                | Couch Cartoon 
+                            .card-text 
+                                img(src="../img/fore-star.png", alt="star")
+                                <b>$ 159</b>
+                                <p class="card-paragraph">
+                                | Lorem lipsum is simple and<br>
+                                | durny text.
+                                </p>
+                            button(class="card-button", onmouseover="buttonOver6()" onmouseleave="buttonLeave6()") Add to Cart    
+                        div(class="slide-card swiper-slide") 
+                            div(class="card-head")
+                                img(src="../img/cheir2.png", alt="cher" class="furniture-png")
+                                | Cuero Chair
+                            .card-text 
+                                img(src="../img/thre-star.png", alt="star")
+                                <b>$ 199</b>
+                                <p class="card-paragraph">
+                                | Lorem lipsum is simple and<br>
+                                | durny text.
+                                </p>
+                            button(class="card-button", onmouseover="buttonOver7()" onmouseleave="buttonLeave7()") Add to Cart 
+                        div(class="slide-card swiper-slide") 
+                            div(class="card-head") 
+                                img(src="../img/sofa.png", alt="cher" class="furniture-png")
+                                | Bedroom Bed
+                            .card-text 
+                                img(src="../img/five-star.png", alt="star")
+                                <b>$ 359</b>
+                                <p class="card-paragraph">
+                                | Lorem lipsum is simple and<br>
+                                | durny text.
+                                </p>
+                            button(class="card-button", onmouseover="buttonOver8()" onmouseleave="buttonLeave8()") Add to Cart 
+                        div(class="slide-card swiper-slide") 
+                            div(class="card-head")
+                                img(src="../img/furniture.png", alt="cher" class="furniture-png")
+                                | Wooden Drawer
+                            .card-text 
+                                img(src="../img/thre-star.png", alt="star")
+                                <b>$ 299</b>
+                                <p class="card-paragraph">
+                                | Lorem lipsum is simple and<br>
+                                | durny text.
+                                </p>
+                            button(class="card-button", onmouseover="buttonOver9()" onmouseleave="buttonLeave9()") Add to Cart 
+                        div(class="slide-card swiper-slide") 
+                            div(class="card-head")
+                                img(src="../img/cheir2.png", alt="cher" class="furniture-png")
+                                | Cuero Chair
+                            .card-text 
+                                img(src="../img/thre-star.png", alt="star")
+                                <b>$ 199</b>
+                                <p class="card-paragraph">
+                                | Lorem lipsum is simple and<br>
+                                | durny text.
+                                </p>
+                            button(class="card-button", onmouseover="buttonOverR()" onmouseleave="buttonLeaveR()") Add to Cart 
+                    div(class="swiper-button-next")
+                    div(class="swiper-button-prev")
+            section.section-3 
+                h1.section-3-tittle SPECIAL DEALS FOR THIS WEEK
+                .timer_wrap  
+                    .timer_wrap_items 
+                        div(class="timer__item timer__days") 00
+                        div(class="timer__item timer__hours") 00
+                        div(class="timer__item timer__minutes") 00
+                        div(class="timer__item timer__seconds") 00
+                button.title-button Shop Now       
+            section(class="section-4" id="product")
+                h1.section-h OUR STAR PRODUCTS
+                p.section-4-paragraph Discover all our beautiful and unique products which are perfect for your home.
+                .navigation-star-tabs-wrap
+                    div(class="navigation-star-part part-active" data-tab="#tab_1") FEATURE
+                    div(class="navigation-star-part" data-tab="#tab_2") LATEST
+                    div(class="navigation-star-part" data-tab="#tab_3") SELLER 
+                div(class="navigation-star-wrap tab-active" id="tab_1") 
+                    div(class="navigation-star-slide") 
+                        img(src="../img/ModernChair.png", class="star-slide-image")
+                        .star-slide-text
+                            h2.star-slide-h2 Modern Chair 
+                            .rating-p 4.7
+                            button.star-button
+                                img(src="../img/cardProducts.png")
+                            h1.star-slide-cost $99.99
+                    div(class="navigation-star-slide")
+                        img(src="../img/AntiqueChair.png", class="star-slide-image")
+                        .star-slide-text
+                            h2.star-slide-h2 Antique Chair
+                            .rating-p 4.5
+                            button.star-button
+                                img(src="../img/cardProducts.png")
+                            h1.star-slide-cost $299.99
+                    div(class="navigation-star-slide") 
+                        img(src="../img/MagazineHolder.png", class="star-slide-image")
+                        .star-slide-text
+                            h2.star-slide-h2 Magazine Holder
+                            .rating-p 5.0
+                            button.star-button
+                                img(src="../img/cardProducts.png")
+                            h1.star-slide-cost $99.99
+                    div(class="navigation-star-slide")
+                        img(src="../img/ComfortChair.png", class="star-slide-image")
+                        .star-slide-text
+                            h2.star-slide-h2 Comfort Chair
+                            .rating-p 3.5
+                            button.star-button
+                                img(src="../img/cardProducts.png")
+                            h1.star-slide-cost $99.99
+                div(class="navigation-star-wrap" id="tab_2") 
+                    .navigation-star-slide 
+                        img(src="../img/AntiqueChair.png", class="star-slide-image")
+                        .star-slide-text
+                            h2.star-slide-h2 Antique Chair
+                            .rating-p 4.5
+                            button.star-button
+                                img(src="../img/cardProducts.png")
+                            h1.star-slide-cost $299.99
+                    .navigation-star-slide 
+                        img(src="../img/MagazineHolder.png", class="star-slide-image")
+                        .star-slide-text
+                            h2.star-slide-h2 Magazine Holder
+                            .rating-p 5.0
+                            button.star-button
+                                img(src="../img/cardProducts.png")
+                            h1.star-slide-cost $99.99
+                    .navigation-star-slide 
+                        img(src="../img/ModernChair.png", class="star-slide-image")
+                        .star-slide-text
+                            h2.star-slide-h2 Modern Chair 
+                            .rating-p 4.7
+                            button.star-button
+                                img(src="../img/cardProducts.png")
+                            h1.star-slide-cost $99.99
+                    .navigation-star-slide 
+                        img(src="../img/ComfortChair.png", class="star-slide-image")
+                        .star-slide-text
+                            h2.star-slide-h2 Comfort Chair
+                            .rating-p 3.5
+                            button.star-button
+                                img(src="../img/cardProducts.png")
+                            h1.star-slide-cost $99.99
+                div(class="navigation-star-wrap" id="tab_3") 
+                    .navigation-star-slide 
+                        img(src="../img/ComfortChair.png", class="star-slide-image")
+                        .star-slide-text
+                            h2.star-slide-h2 Comfort Chair
+                            .rating-p 3.5
+                            button.star-button
+                                img(src="../img/cardProducts.png")
+                            h1.star-slide-cost $99.99
+                    .navigation-star-slide 
+                        img(src="../img/ModernChair.png", class="star-slide-image")
+                        .star-slide-text
+                            h2.star-slide-h2 Modern Chair 
+                            .rating-p 4.7
+                            button.star-button
+                                img(src="../img/cardProducts.png")
+                            h1.star-slide-cost $99.99
+                    .navigation-star-slide 
+                        img(src="../img/AntiqueChair.png", class="star-slide-image")
+                        .star-slide-text
+                            h2.star-slide-h2 Antique Chair
+                            .rating-p 4.5
+                            button.star-button
+                                img(src="../img/cardProducts.png")
+                            h1.star-slide-cost $299.99
+                    .navigation-star-slide 
+                        img(src="../img/MagazineHolder.png", class="star-slide-image")
+                        .star-slide-text
+                            h2.star-slide-h2 Magazine Holder
+                            .rating-p 5.0
+                            button.star-button
+                                img(src="../img/cardProducts.png")
+                            h1.star-slide-cost $99.99
+            section.section-5 
+                img(src="../img/deliverySofa.png" class="sofa-png")       
+                .delivery-block
+                    .delivery-row 
+                        .delivery-col 
+                            img(src="../img/carDelivery.png")
+                            h2 Free Shipping 
+                            h3 Orders over $100
+                        .delivery-col 
+                            img(src="../img/headphoneDelivery.png")
+                            h2 24/7 Support
+                            h3 Quick support 
+                        .delivery-col 
+                            img(src="../img/moneyDelivery.png")
+                            h2 10-Day Returns
+                            h3 Shop with confidence 
+            section(class="section-6" id="blog")
+                h1.section-h WHAT’S NEW IN OUR BLOG
+                p.blog-p Only for our customers we have some collections of the blog post.
+                img(src="../img/arrowBlog.svg" class="arrowBlog-svg")
+                .blog-wrap 
+                    .blog-block 
+                        .block-text
+                            .block-date_comment 
+                                h3.date 13 September 
+                                h3.comment Comments 05
+                            h1.block-h Home Decore 
+                            a(href="") Read More 
+                    .blog-block 
+                        .block-text
+                            .block-date_comment 
+                                h3.date 30 November 
+                                h3.comment Comments 09
+                            h1.block-h Home Decore 
+                            a(href="") Read More
+                    .blog-block 
+                        .block-text
+                            .block-date_comment 
+                                h3.date 3 December 
+                                h3.comment Comments 12
+                            h1.block-h Home Decore 
+                            a(href="") Read More 
+                        img(src="../img/arrowBlogLeft.svg" class="arrowBlogLeft-svg")
+                    .blog-block 
+                        .block-text
+                            .block-date_comment 
+                                h3.date 27 November 
+                                h3.comment Comments 06
+                            h1.block-h Home Decore 
+                            a(href="") Read More 
+            section.section-7 
+                h1.section-h WHATS PEOPLE SAY’S
+                img(src="../img/arrow.png" class="img-arrow")
+                .says-row 
+                    .says-col 
+                        img(src="../img/peopleImg1.png", alt="img", class="says-img")
+                        p.says-p "But I must explain to you how all this mistaken <br>
+                            | idea of denouncing pleasure and praising pain was <br>
+                            | born and I will give you a complete account of the <br>
+                            | system, and expound the actual teachings”.                                     
+                        h3.says-name Jessica Robert
+                        h3 Co-founder
+                    .says-col 
+                        img(src="../img/peopleImg2.png", alt="img", class="says-img")
+                        p.says-p "But I must explain to you how all this mistaken <br>
+                            | idea of denouncing pleasure and praising pain was <br>
+                            | born and I will give you a complete account of the <br>
+                            | system, and expound the actual teachings”.                                     
+                        h3.says-name Rocky Pere
+                        h3 founder
+                    .says-col 
+                        img(src="../img/peopleImg3.png", alt="img", class="says-img")
+                        p.says-p "But I must explain to you how all this mistaken <br>
+                            | idea of denouncing pleasure and praising pain was <br>
+                            | born and I will give you a complete account of the <br>
+                            | system, and expound the actual teachings”.                                     
+                        h3.says-name Albert Amansan
+                        h3 Co-founder
+            section(class="section-8" id="pages")
+                h1.section-h FEATURED PRODUCTS
+                p.featured-p Find our best products faster and qualitier  product’s choices from us.
+                .products_wrap 
+                    .products-block 
+                        img(src="../img/productImg1.png", alt="product")
+                        h3.products_title Wooden Table-Chair
+                        p.products_sub-title You don’t have and a tablechair. Shop <br> with 40% discount !
+                        .products-cost-wrap
+                            .products-cost $1299
+                            .products-cost $1199
+                        button(class="products-button") Shop Now
+                        img(src="../img/star3.png", alt="star" class="productStar")
+                    .products-block 
+                        img(src="../img/productImg2.png", alt="product")
+                        h3.products_title Wooden Table-Chair
+                        p.products_sub-title You don’t have and a tablechair. Shop <br> with 40% discount !
+                        .products-cost-wrap
+                            .products-cost $1599
+                            .products-cost $1399
+                        button(class="products-button") Shop Now
+                        img(src="../img/star4.png", alt="star" class="productStar")
+                    .products-block 
+                        img(src="../img/productImg3.png", alt="product")
+                        h3.products_title Wooden Table-Chair
+                        p.products_sub-title You don’t have and a tablechair. Shop <br> with 40% discount !
+                        .products-cost-wrap
+                            .products-cost $1399
+                            .products-cost $1099
+                        button(class="products-button") Shop Now
+                        img(src="../img/star3.png", alt="star" class="productStar")
+                    .products-block 
+                        img(src="../img/productImg4.png", alt="product")
+                        h3.products_title Wooden Table-Chair
+                        p.products_sub-title You don’t have and a tablechair. Shop <br> with 40% discount !
+                        .products-cost-wrap
+                            .products-cost $1499
+                            .products-cost $1399
+                        button(class="products-button") Shop Now
+                        img(src="../img/star3.png", alt="star" class="productStar")
+                    .products-block 
+                        img(src="../img/productImg5.png", alt="product")
+                        h3.products_title Wooden Table-Chair
+                        p.products_sub-title You don’t have and a tablechair. Shop <br> with 40% discount !
+                        .products-cost-wrap
+                            .products-cost $1299
+                            .products-cost $1199
+                        button(class="products-button") Shop Now
+                        img(src="../img/star3.png", alt="star" class="productStar")
+                    .products-block 
+                        img(src="../img/productImg6.png", alt="product")
+                        h3.products_title Wooden Table-Chair
+                        p.products_sub-title You don’t have and a tablechair. Shop <br> with 40% discount !
+                        .products-cost-wrap
+                            .products-cost $1199
+                            .products-cost $1099
+                        button(class="products-button") Shop Now
+                        img(src="../img/star3.png", alt="star" class="productStar")
+            section.section-9 
+                .email-block
+                    .block-content 
+                        h1.content-title SUBSCRIBE US FOR TRENDING WORKS
+                        p.content-sub_title Stay  up to date with our new and trending works !!!
+                        .content-btn_wrap
+                            input(type="text" class="content-btn" placeholder="Enter your email address")
+            footer(class="footer" id="contact") 
+                .footer-content__wrap 
+                    .content__wrap__col
+                        img(src="../img/logo.svg", alt="logo" class="wrap__col__logo")
+                        p.wrap__col__paragraph
+                            | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedo <br>
+                            | eiusmod tempor incdididunt ut labore et dolore magna aliqua. <br>
+                            | Ut enim ad minzim veniam, quis nostrud exercitation ullamco <br>
+                            | laboris nisi ut aliquip ex ea commodo consequat.
+                        .col__network
+                            img(src="../img/facebook.svg", alt="facebook" class="network_image")
+                            img(src="../img/insta.svg", alt="insta" class="network_image")
+                            img(src="../img/linkedin.svg", alt="linkedin" class="network_image")
+                            img(src="../img/twitter.svg", alt="twitter" class="network_image")
+                            img(src="../img/google.svg", alt="google" class="network_image")
+                            img(src="../img/pinterest.svg", alt="pinterest" class="network_image")
+                    .content__wrap__col
+                        .col__sub-col
+                            h2.col__title Quick Links
+                            ul.col__ul 
+                                a(href="#" class="ul_link")
+                                    li.ul_item HOME 
+                                a(href="#" class="ul_link")
+                                    li.ul_item ABOUT US
+                                a(href="#" class="ul_link")
+                                    li.ul_item BLOG
+                                a(href="#" class="ul_link")
+                                    li.ul_item PRODUCTS
+                        .col__sub-col
+                            h2.col__title Support
+                            ul.col__ul 
+                                a(href="#" class="ul_link")
+                                    li.ul_item HELP 
+                                a(href="#" class="ul_link")
+                                    li.ul_item CONTACT
+                                a(href="#" class="ul_link")
+                                    li.ul_item POLICY
+                                a(href="#" class="ul_link")
+                                    li.ul_item SERVICE
+                .footer__underLine 
+                    img(src="../img/copyright.png", alt="copy")
+                    | Copyright All Rights Reserved
+    script(src="../js/timer.js")
+    script(src="../js/index.js")
+    script(src="../js/sofa_paralax.js")
+    script(src="../js/product_tabs.js")
+    script(src="https://unpkg.com/aos@2.3.1/dist/aos.js") 
+    script(src="https://unpkg.com/swiper/swiper-bundle.min.js")
+    script.
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            loop: true,
+            navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+            },
+            1024: {
+                slidesPerView: 6,
+                spaceBetween: 50,
+            },
+          },
+        });
+        AOS.init();
+    
